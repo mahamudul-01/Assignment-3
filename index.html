@@ -19,6 +19,9 @@
         .font-family{
             font-family: "Manrope", sans-serif;
         }
+        hr{
+            border: 1.5px dashed rgb(241, 230, 230);
+        }
         @media screen and (max-width:640px) {
             .display{
                 display: none;
@@ -46,31 +49,31 @@
                     </ul>
                     
                   </div>
-                  <div class="lg:text-4xl text-xl font-extrabold ">
+                  <div class="lg:text-4xl text-2xl font-extrabold ">
                     <h1>Hockey<span class="text-red-600">'</span>s</h1>
                 </div>
                 </div>
-                <div class="navbar-center space-x-6   lg:text-base display ">
+                <div class="navbar-center space-x-[44px]   lg:text-base display text-gray-600  ">
                   <a class="text-red-600 font-semibold" href="#">Home</a>
-                  <a href="#">About</a>
-                  <a href="#">Pages</a>
-                  <a href="#">Blog</a>
-                  <a href="#">Contact</a>
+                  <a class="hover:font-semibold" href="#">About</a>
+                  <a class="hover:font-semibold" href="#">Pages</a>
+                  <a class="hover:font-semibold" href="#">Blog</a>
+                  <a class="hover:font-semibold" href="#">Contact</a>
                 </div>
-                <div class="navbar-end space-x-4">
-                  <div class="text-gray-500">
+                <div class="navbar-end space-x-6">
+                  <div class="text-gray-500 text-2xl hover:text-red-500">
                     <i class="fa-solid display fa-magnifying-glass"></i>
                   </div>
                   <div>
-                    <button class="btn btn-error text-white font-semibold">Get Ticket</button>
+                    <button class="btn btn-error text-white font-semibold text-lg lg:text-xl">Get Ticket</button>
                   </div>
                 </div>
               </div>
         </nav>
     </header>
     <main>
-        <!-- banner section  -->
-        <section class="container mx-auto lg:max-w-screen-xl max-w-[85%] mt-10">
+        <!-- carusel section  -->
+        <section class="container mx-auto lg:max-w-screen-xl max-w-[85%] mt-10" >
             <div class="relative">
                 <div class="carousel w-full rounded-[20px] h-">
                     <div id="slide1" class="carousel-item relative w-full">
@@ -102,20 +105,57 @@
                       </div>
                     </div>
                   </div>
-                  <div class="rounded-lg bg-black p-10 text-white mt-4 lg:hidden">
-                    <h3 class="text-2xl font-extrabold">Meet The All herros From The Field</h3>
-                    <p class="text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minima?</p>
+                  <div class="rounded-lg bg-black p-10 text-white mt-4 lg:hidden space-y-4">
+                    <h3 class=" font-extrabold text-lg">Meet The All heroes From The Field</h3>
+                    <p class="text-sm font-medium text-gray-500 ">Welcome to the heart of our hockey community, where legends are made and dreams take flight. Our heroes aren't just players; they're the embodiment of passion, skill, and unwavering determination on the ice.</p>
                   </div>
                 </div>
-                <div class="rounded-lg bg-black p-10 text-white mt-4 absolute translate-x-[600px] translate-y-[-250px] space-y-4 display" >
+                <div class="rounded-lg bg-black p-10 text-white mt-4 absolute translate-x-[600px] translate-y-[-250px] space-y-4 display w-[40%]" >
                     <h3 class="text-2xl font-extrabold">Meet The All herros From The Field</h3>
-                    <p class="text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minima?</p>
+                    <p class="text-sm font-semibold text-gray-500">Welcome to the heart of our hockey community, where legends are made and dreams take flight. Our heroes aren't just players; they're the embodiment of passion, skill, and unwavering determination on the ice.</p>
                 </div>
             </div>
-
-            
-
+            <hr class="mt-[100px]">
         </section>
+        
+        <!-- Professional Hockeys Club section -->
+        <section class="container mx-auto lg:max-w-screen-xl max-w-[85%] mt-[32px]">
+            <div class="w-2/3 text-center mx-auto space-y-6 mb-8">
+                <h1 class="lg:text-4xl text-[22px] font-extrabold">Professional Hockeys Club</h1>
+                <p class="text base text-gray-600 px-6">At Hockeys, we don't just play hockey; we live and breathe the sport. Established with a rich legacy and a commitment to excellence, our professional hockey club stands as a beacon of passion, skill, and sportsmanship.</p>
+            </div>
+            <hr class="mt-8 mb-[80px]">
+            <div class="grid lg:grid-cols-4 grid-cols-1 gap-4">
+                <div class="  p-4 space-y-6  text-center  shadow-md rounded-xl ">
+                    <div class="radial-progress text-[#ff3b39]" style="--value:87; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-3xl font-extrabold">87%</span></div>
+                    
+                    <h3 class="text-xl font-bold">Prayer Facility</h3>
+                    <p class="text-base text-gray-600 ">Welcome to Hockeys, where excellence is not just a goal but a way of life. Our facilities boast cutting-edge training, advanced recovery spaces, and strategic meeting rooms. </p>
+                </div>
+                <div class="  p-4 space-y-6  text-center  shadow-md rounded-xl ">
+                    <div class="radial-progress text-[#49d293]" style="--value:95; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-3xl font-extrabold">95%</span></div>
+                    
+                    <h3 class="text-xl font-bold">Experienced Coach</h3>
+                    <p class="text-base text-gray-600">Meet Coach Lufi, our seasoned strategist. With vast experience, they lead our team to success. #Leadership #ExcellenceOnIce"</p>
+                </div>
+                <div class="  p-4 space-y-6  text-center  shadow-md rounded-xl ">
+                    <div class="radial-progress text-[#ffb546]" style="--value:90; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-3xl font-extrabold">90%</span></div>
+                    
+                    <h3 class="text-xl font-bold">Senior Player</h3>
+                    <p class="text-base text-gray-600">Meet our senior player, a beacon of experience and leadership. Their skill and dedication inspire the team. </p>
+                </div>
+                <div class="  p-4 space-y-6  text-center  shadow-md rounded-xl ">
+                    <div class="radial-progress text-[#4c8df1]" style="--value:80; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-3xl font-extrabold">80%</span></div>
+                    
+                    <h3 class="text-xl font-bold">Training Ground</h3>
+                    <p class="text-base text-gray-600">
+                        "At our training ground, excellence is forged. State-of-the-art facilities and expert coaching create champions. Elevate your game with us!</p>
+                </div>
+                
+            </div>
+            <hr class="mt-[100px] mb-[32px]">
+        </section>
+        
     </main>
 </body>
 </html>
